@@ -1,0 +1,17 @@
+Preguntas finales
+
+¿Qué tipo de errores detectó SonarQube que podrían haber pasado desapercibidos?
+
+SonarQube detectó errores tales como una variable sin utilizar (contraseña) y el uso de la letra ñ en la misma variable, también sugirió como buena práctica reemplazar el uso de System.out.println por un logger para mejorar la mantenibilidad.
+
+¿Qué ventajas tiene el análisis estático respecto al dinámico?
+
+Permite detectar errores de forma temprana, incluso antes de que el código se ejecute, también detecta vulnerabilidades en el código que no necesariamente son errores pero podrían evitar problemas vitales más adelante, a su vez, mejora la mantenibilidad del código por medio de sugerencias de buenas prácticas
+
+¿Cómo impacta SonarQube en la calidad del software antes del despliegue? 
+
+Impacta de manera positiva ya que nos damos cuenta de las vulnerabilidades, errores en el código, líneas que no son necesarias y malas prácticas que pueden afectar el funcionamiento óptimo de la app al momento del despliegue. Al analizar el código fuente automáticamente, facilita realizar mejoras antes de pasar a producción, asegurando versiones más estables, seguras y eficientes.
+
+¿Qué políticas o reglas personalizarías según el tipo de proyecto?
+
+Algunas empresas tienen un estándar de codificación que se debe seguir, una política que detecte que se siguen correctamente para cada tipo de empresas con este tipo de estándar podría resultar muy útil para el análisis. Lo mismo ocurriría para los estándares de seguridad o de mantención que puede variar según la empresa y los proyectos específicos. Igualmente siempre se debería mantener una revisión general de buenas prácticas, revisión de bugs y seguridad en todos los proyectos.
