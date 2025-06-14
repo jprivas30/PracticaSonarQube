@@ -1,11 +1,12 @@
 package com.equipo.validador;
+import java.util.logging.*;
 
 public class App {
+     private static final Logger logger = Logger.getLogger(App.class.getName());
     public static void main(String[] args) {
-        String usuario = "admin";
-        String contraseña = "123456"; // Hardcoded credentials
-        if (usuario.equals("admin")) {
-            System.out.println("¡Bienvenido administrador!");
+        String usuario = System.getenv("APP_USER");
+        if ("admin".equals(usuario)) {
+            logger.info("¡Bienvenido administrador!");
         }
     }
 }

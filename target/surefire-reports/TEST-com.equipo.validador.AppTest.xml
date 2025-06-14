@@ -1,12 +1,12 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report-3.0.xsd" version="3.0" name="com.equipo.validador.AppTest" time="0.034" tests="1" errors="0" skipped="0" failures="0">
+<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report-3.0.xsd" version="3.0" name="com.equipo.validador.AppTest" time="0.031" tests="1" errors="0" skipped="0" failures="0">
   <properties>
     <property name="java.specification.version" value="21"/>
     <property name="sun.cpu.isalist" value="amd64"/>
-    <property name="sonar.login" value="admin"/>
+    <property name="sonar.login" value="squ_d0848f78856d058943a50f2425c65b04ff2991ee"/>
     <property name="sonar.host.url" value="http://localhost:9000"/>
     <property name="sun.jnu.encoding" value="Cp1252"/>
-    <property name="java.class.path" value="C:\Users\Jr2no\OneDrive\Escritorio\DevOps\validadorapp\target\test-classes;C:\Users\Jr2no\OneDrive\Escritorio\DevOps\validadorapp\target\classes;C:\Users\Jr2no\.m2\repository\junit\junit\3.8.1\junit-3.8.1.jar;"/>
+    <property name="java.class.path" value="C:\Users\Jr2no\OneDrive\Escritorio\DevOps\validadorapp\target\test-classes;C:\Users\Jr2no\OneDrive\Escritorio\DevOps\validadorapp\target\classes;C:\Users\Jr2no\.m2\repository\junit\junit\3.8.1\junit-3.8.1.jar;C:\Users\Jr2no\.m2\repository\org\slf4j\slf4j-api\2.0.7\slf4j-api-2.0.7.jar;C:\Users\Jr2no\.m2\repository\ch\qos\logback\logback-classic\1.4.11\logback-classic-1.4.11.jar;C:\Users\Jr2no\.m2\repository\ch\qos\logback\logback-core\1.4.11\logback-core-1.4.11.jar;"/>
     <property name="java.vm.vendor" value="Oracle Corporation"/>
     <property name="sun.arch.data.model" value="64"/>
     <property name="user.variant" value=""/>
@@ -17,9 +17,9 @@
     <property name="sun.java.launcher" value="SUN_STANDARD"/>
     <property name="user.country" value="CL"/>
     <property name="sun.boot.library.path" value="C:\Program Files\Java\jdk-21\bin"/>
-    <property name="sun.java.command" value="C:\Users\Jr2no\AppData\Local\Temp\surefire6487782076264438745\surefirebooter-20250613215308185_3.jar C:\Users\Jr2no\AppData\Local\Temp\surefire6487782076264438745 2025-06-13T21-53-07_962-jvmRun1 surefire-20250613215308185_1tmp surefire_0-20250613215308185_2tmp"/>
+    <property name="sun.java.command" value="C:\Users\Jr2no\AppData\Local\Temp\surefire14020132305272709750\surefirebooter-20250613221923187_3.jar C:\Users\Jr2no\AppData\Local\Temp\surefire14020132305272709750 2025-06-13T22-19-23_000-jvmRun1 surefire-20250613221923187_1tmp surefire_0-20250613221923187_2tmp"/>
     <property name="jdk.debug" value="release"/>
-    <property name="surefire.test.class.path" value="C:\Users\Jr2no\OneDrive\Escritorio\DevOps\validadorapp\target\test-classes;C:\Users\Jr2no\OneDrive\Escritorio\DevOps\validadorapp\target\classes;C:\Users\Jr2no\.m2\repository\junit\junit\3.8.1\junit-3.8.1.jar;"/>
+    <property name="surefire.test.class.path" value="C:\Users\Jr2no\OneDrive\Escritorio\DevOps\validadorapp\target\test-classes;C:\Users\Jr2no\OneDrive\Escritorio\DevOps\validadorapp\target\classes;C:\Users\Jr2no\.m2\repository\junit\junit\3.8.1\junit-3.8.1.jar;C:\Users\Jr2no\.m2\repository\org\slf4j\slf4j-api\2.0.7\slf4j-api-2.0.7.jar;C:\Users\Jr2no\.m2\repository\ch\qos\logback\logback-classic\1.4.11\logback-classic-1.4.11.jar;C:\Users\Jr2no\.m2\repository\ch\qos\logback\logback-core\1.4.11\logback-core-1.4.11.jar;"/>
     <property name="sun.cpu.endian" value="little"/>
     <property name="user.home" value="C:\Users\Jr2no"/>
     <property name="user.language" value="es"/>
@@ -32,7 +32,7 @@
     <property name="line.separator" value="&#10;"/>
     <property name="java.vm.specification.vendor" value="Oracle Corporation"/>
     <property name="java.specification.name" value="Java Platform API Specification"/>
-    <property name="surefire.real.class.path" value="C:\Users\Jr2no\AppData\Local\Temp\surefire6487782076264438745\surefirebooter-20250613215308185_3.jar"/>
+    <property name="surefire.real.class.path" value="C:\Users\Jr2no\AppData\Local\Temp\surefire14020132305272709750\surefirebooter-20250613221923187_3.jar"/>
     <property name="user.script" value=""/>
     <property name="sun.management.compiler" value="HotSpot 64-Bit Tiered Compilers"/>
     <property name="java.runtime.version" value="21.0.6+8-LTS-188"/>
@@ -61,5 +61,5 @@
     <property name="sun.io.unicode.encoding" value="UnicodeLittle"/>
     <property name="java.class.version" value="65.0"/>
   </properties>
-  <testcase name="testApp" classname="com.equipo.validador.AppTest" time="0.006"/>
+  <testcase name="testApp" classname="com.equipo.validador.AppTest" time="0.004"/>
 </testsuite>
