@@ -2,5 +2,5 @@ projectKey=validadorapp
 serverUrl=http://localhost:9000
 serverVersion=25.6.0.109173
 dashboardUrl=http://localhost:9000/dashboard?id=validadorapp
-ceTaskId=5e9b5e5e-5901-4719-837f-96e2f13089a7
-ceTaskUrl=http://localhost:9000/api/ce/task?id=5e9b5e5e-5901-4719-837f-96e2f13089a7
+ceTaskId=7e8e5781-e02e-4ad9-af1c-126b639f91bb
+ceTaskUrl=http://localhost:9000/api/ce/task?id=7e8e5781-e02e-4ad9-af1c-126b639f91bb
